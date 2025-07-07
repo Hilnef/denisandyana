@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Literata', serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media  (max-width : 460px)  {
+    body{
+        
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #FFF;
+    margin: 0%;
+    padding: 0%;
+    h1{color: black;}
+    .beg{
+        margin-left: 0%;
+        margin-top: 13%;
+        display: flex;
+        justify-content: center;
+        #i1, #i3{
+            font-family: 'Monsieur La Doulaise', cursive; 
+            font-size: 250%; 
+            font-weight: normal;
+        }
+        #i1{
+            position: absolute;
+            margin-top: -7%;
+            margin-left: -10%;
+        }
+        #i3{
+            position: absolute;
+            margin-top: 9%;
+            margin-left: -4%;
+        }
+        #i2{
+            font-size: 400%;
+            font-weight: normal;
+            font-family: 'Baskervville SC', serif;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 0%;
+        }
+    }
+    .data {
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    h1{
+        font-size: 300%;
+        font-weight: normal;
+        font-family: 'Mea Culpa', cursive;
+    }
+}
+    .imag{
+        display: flex;
+        justify-content: center;
+        margin-top: -5%;
+        img{
+            width: 70%;
+        }
+    }
+    .phone{
+        position: relative;
+        height: 25vw;
+        width: 25vw;
+        padding: 0.5%;
+        background-color: #FFF;
+        margin-left: 8%;
+        margin-top: -15%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        font-family: 'Baskervville SC', serif;
+        h1{
+            color: rgba(111, 137, 102, 1);
+            font-size: 18vw;
+            font-weight: 400;
+        }
+        #l1{
+            position: absolute;
+            margin-left: 15%;
+            margin-top: -55%;
+        }
+        #l2{
+            position: absolute;
+            margin-left:37%;
+            margin-top: -25%;
+        }
+    }
+    .kkkk{
+        position: absolute  ;
+        width: 100vw;
+        z-index: -1;
+        margin-right: 0%;
+        height: 110vw;
+        margin-top: 40%;
+    }
+    .kew{
+        position: absolute  ;
+        width: 100vw;
+        z-index: -1;
+        margin-right: 0%;
+        height: 110vw;
+        margin-top: 7%;
+    }
+    .name{
+        position: relative;
+        h1{
+            font-family: 'Monsieur La Doulaise', cursive;
+            font-weight: normal;
+            font-size: 18vw;
+            font-weight: 100;
+        }
+        #t1{
+            margin-top: -22%;
+            margin-left: 45vw;
+            position: absolute;
+        }
+        #t2{
+            margin-top: -9.5%;
+            margin-left: 23%;
+            position: absolute;
+        }
+    }
+    .tot{
+        margin-top: 0%;
+        font-weight:100;
+        width: 90%;
+        font-size: 4vw;
+        font-family: 'Literata', serif;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .go{
+        margin-top: 2vw;
+        font-weight:100;
+        font-size: 4vw;
+        width: 90%;
+        margin-bottom: -5vw;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Literata', serif;
+    }
+    .fon{
+        display: block;
+        margin-top: 7vw;
+        margin-bottom: -10vw;
+        width: 95%;
+        font-size: 12vw;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+
+        #p1{
+            font-family: 'Monsieur La Doulaise', cursive;
+            position: absolute;
+            font-weight: 100;
+            font-size: 70%;
+            padding-right: 120%;
+            margin-top: 0.6vh;
+        }
+        #p2{
+            font-family: 'Baskervville SC', serif;
+            font-weight: 500;
+        }
+    }
+    .kot{
+        font-weight:100;
+        margin-top: 2vw;
+        width: 90%;
+        font-size: 4vw;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Literata', serif;
+    }
+    .time{
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 13vw;
+        margin-top: 30vw;
+    }
+    .tiim{
+        #mmm{
+            display: flex;
+            justify-content: start;
+            .pop{
+                margin-right: 4%;
+            }
+        }
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        .tong{
+            display: flex;
+            justify-content: space-between;
+            
+        font-family: 'Literata', serif;
+        font-weight: 400;
+            .pop{
+                font-size: 16vw;
+                margin-right: 3vw;
+                margin-top: -20vw;
+                font-weight: 600;
+                p{
+                    font-family: 'Literata', serif;
+                    letter-spacing: -0.05em;
+                    font-weight: lighter;
+                }
+            }
+            .tpop{
+                #s1{
+                    line-height: 0.9em;
+                    
+                }
+            }
+        }
+    }
+    .kod{
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 13vw;
+        margin-top: -8%;
+    }
+    
+    .goyda{
+        font-weight:400;
+        margin-top: -7vw;
+        width: 90%;
+        font-size: 4vw;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Literata', serif;
+    }
+    .container {
+    display: flex;
+    justify-content: space-around; 
+    margin: 20px; 
+    }
+    
+    .block {
+        margin-top: 5%;
+        width: 15vw; 
+        height: 35vw; 
+        border-radius: 50px 50px 0 0; 
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.54); 
+    }
+
+    
+    .pink {
+        background-color: rgba(228, 204, 204, 1); 
+        margin-right: -10%;
+    }
+    
+    .green {
+        background-color: rgba(214, 226, 203, 1);
+        margin-right: -10%;
+    }
+    
+    .dark-green {
+        background-color: rgba(155, 181, 147, 1); 
+        margin-right: -10%;
+    }
+    
+    .black {
+        background-color: black; 
+    }
+    .custom-line {  
+    border: none; 
+    height: 2px; 
+    background-color: black; 
+    width: 80%; 
+    margin: 20px auto; 
+}
+}
+}

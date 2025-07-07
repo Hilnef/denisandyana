@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Literata", serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 460px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #FFF;
+    margin: 0%;
+    padding: 0%;
+  }
+  body h1 {
+    color: black;
+  }
+  body .beg {
+    margin-left: 0%;
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+  }
+  body .beg #i1, body .beg #i3 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 250%;
+    font-weight: normal;
+  }
+  body .beg #i1 {
+    position: absolute;
+    margin-top: -7%;
+    margin-left: -10%;
+  }
+  body .beg #i3 {
+    position: absolute;
+    margin-top: 9%;
+    margin-left: -4%;
+  }
+  body .beg #i2 {
+    font-size: 400%;
+    font-weight: normal;
+    font-family: "Baskervville SC", serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+  }
+  body .data {
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+  }
+  body .data h1 {
+    font-size: 300%;
+    font-weight: normal;
+    font-family: "Mea Culpa", cursive;
+  }
+  body .imag {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+  }
+  body .imag img {
+    width: 70%;
+  }
+  body .phone {
+    position: relative;
+    height: 25vw;
+    width: 25vw;
+    padding: 0.5%;
+    background-color: #FFF;
+    margin-left: 8%;
+    margin-top: -15%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: "Baskervville SC", serif;
+  }
+  body .phone h1 {
+    color: rgb(111, 137, 102);
+    font-size: 18vw;
+    font-weight: 400;
+  }
+  body .phone #l1 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -55%;
+  }
+  body .phone #l2 {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -25%;
+  }
+  body .kkkk {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    margin-right: 0%;
+    height: 110vw;
+    margin-top: 40%;
+  }
+  body .kew {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    margin-right: 0%;
+    height: 110vw;
+    margin-top: 7%;
+  }
+  body .name {
+    position: relative;
+  }
+  body .name h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: normal;
+    font-size: 18vw;
+    font-weight: 100;
+  }
+  body .name #t1 {
+    margin-top: -22%;
+    margin-left: 45vw;
+    position: absolute;
+  }
+  body .name #t2 {
+    margin-top: -9.5%;
+    margin-left: 23%;
+    position: absolute;
+  }
+  body .tot {
+    margin-top: 0%;
+    font-weight: 100;
+    width: 90%;
+    font-size: 4vw;
+    font-family: "Literata", serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body .go {
+    margin-top: 2vw;
+    font-weight: 100;
+    font-size: 4vw;
+    width: 90%;
+    margin-bottom: -5vw;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Literata", serif;
+  }
+  body .fon {
+    display: block;
+    margin-top: 7vw;
+    margin-bottom: -10vw;
+    width: 95%;
+    font-size: 12vw;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body .fon #p1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    position: absolute;
+    font-weight: 100;
+    font-size: 70%;
+    padding-right: 120%;
+    margin-top: 0.6vh;
+  }
+  body .fon #p2 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 500;
+  }
+  body .kot {
+    font-weight: 100;
+    margin-top: 2vw;
+    width: 90%;
+    font-size: 4vw;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Literata", serif;
+  }
+  body .time {
+    text-align: center;
+    font-weight: normal;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 13vw;
+    margin-top: 30vw;
+  }
+  body .tiim {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .tiim #mmm {
+    display: flex;
+    justify-content: start;
+  }
+  body .tiim #mmm .pop {
+    margin-right: 4%;
+  }
+  body .tiim .tong {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Literata", serif;
+    font-weight: 400;
+  }
+  body .tiim .tong .pop {
+    font-size: 16vw;
+    margin-right: 3vw;
+    margin-top: -20vw;
+    font-weight: 600;
+  }
+  body .tiim .tong .pop p {
+    font-family: "Literata", serif;
+    letter-spacing: -0.05em;
+    font-weight: lighter;
+  }
+  body .tiim .tong .tpop #s1 {
+    line-height: 0.9em;
+  }
+  body .kod {
+    text-align: center;
+    font-weight: normal;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 13vw;
+    margin-top: -8%;
+  }
+  body .goyda {
+    font-weight: 400;
+    margin-top: -7vw;
+    width: 90%;
+    font-size: 4vw;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Literata", serif;
+  }
+  body .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  body .block {
+    margin-top: 5%;
+    width: 15vw;
+    height: 35vw;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.54);
+  }
+  body .pink {
+    background-color: rgb(228, 204, 204);
+    margin-right: -10%;
+  }
+  body .green {
+    background-color: rgb(214, 226, 203);
+    margin-right: -10%;
+  }
+  body .dark-green {
+    background-color: rgb(155, 181, 147);
+    margin-right: -10%;
+  }
+  body .black {
+    background-color: black;
+  }
+  body .custom-line {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin: 20px auto;
+  }
+}/*# sourceMappingURL=index.css.map */
